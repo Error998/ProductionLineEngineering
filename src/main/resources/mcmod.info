@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ple",
+  "name": "Production Line Engineering",
+  "description": "Create a factory and apply your engineering skills to make the most effective production line.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Error998/ProductionLineEngineering/wiki",
+  "updateUrl": "",
+  "authorList": ["Error_998"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
