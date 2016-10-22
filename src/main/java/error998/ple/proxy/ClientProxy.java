@@ -1,5 +1,6 @@
 package error998.ple.proxy;
 
+import error998.ple.init.ModItems;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 public class ClientProxy implements CommonProxy 
@@ -8,6 +9,7 @@ public class ClientProxy implements CommonProxy
 	public void preInit(FMLInitializationEvent event)
 	{
 		// Initialize stuff 
+		ModItems.registerRenders();
 		
 	}
 	

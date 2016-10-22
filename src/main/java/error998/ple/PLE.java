@@ -2,6 +2,7 @@ package error998.ple;
 
 import org.apache.logging.log4j.Logger;
 
+import error998.ple.init.ModItems;
 import error998.ple.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -26,6 +27,7 @@ public class PLE
 	public void preInit(FMLInitializationEvent event)
 	{
 		// Initialize stuff
+		ModItems.init();
 		proxy.preInit(event);
 		
 	}
