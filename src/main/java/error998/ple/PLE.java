@@ -2,6 +2,7 @@ package error998.ple;
 
 import org.apache.logging.log4j.Logger;
 
+import error998.ple.init.ModBlocks;
 import error998.ple.init.ModItems;
 import error998.ple.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
@@ -30,8 +31,11 @@ public class PLE
 	{
 		// Initialize stuff
 		ModItems.init();
-		proxy.preInit(event);
 		
+		ModBlocks.init();
+		ModBlocks.register();
+		
+		proxy.preInit(event);
 	}
 	
 	

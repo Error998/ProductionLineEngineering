@@ -1,3 +1,6 @@
+// Creative Tab
+itemGroup.creativeTab=PLE
+
 // Items
 item.plasticRaw.name=Plastic Powder
 item.plasticBar.name=Plastic Bar
@@ -7,5 +10,7 @@ item.ironRaw.name=Unprocessed Iron
 item.ironBar.name=Iron Bar
 item.rubberRaw.name=Unprocessed Rubber
 item.scrapRaw.name=Unprocessed Scrap
-// Creative Tab
-itemGroup.creativeTab=PLE
+
+// Blocks
+tile.factoryfloorblock.name=Factory Floor
+tile.factorywallblock.name=Factory Wall
