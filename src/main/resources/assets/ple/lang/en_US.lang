@@ -7,3 +7,5 @@ item.ironRaw.name=Unprocessed Iron
 item.ironBar.name=Iron Bar
 item.rubberRaw.name=Unprocessed Rubber
 item.scrapRaw.name=Unprocessed Scrap
+// Creative Tab
+itemGroup.creativeTab=PLE
